@@ -2,5 +2,5 @@ streamlit==1.24.1
 pandas==2.0.3
 numpy==1.24.3
 matplotlib==3.7.2
-sqlalchemy==2.0.1
-datetime==68.0.0
+sqlalchemy==1.4.39
+datetime==5.4
