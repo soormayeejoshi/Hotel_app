@@ -25,8 +25,8 @@ f=[]
 g=[]
 h=[]
 j=[]
-engine=create_engine('mysql+pymysql://root:soormayee,1@localhost/soormayee1')
-mycon=engine.connect()
+#engine=create_engine('mysql+pymysql://root:soormayee,1@localhost/soormayee1')
+#mycon=engine.connect()
 
     
 
