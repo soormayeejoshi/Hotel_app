@@ -6,9 +6,7 @@ Created on Sat Feb 24 08:55:36 2024
 """
 import pandas as pd
 import matplotlib.pyplot as plt
-import mysql.connector
 from sqlalchemy import create_engine
-import pymysql
 import numpy as np
 import streamlit as st
 import datetime
