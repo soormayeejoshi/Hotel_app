@@ -1,0 +1,4 @@
+Serial_number,Room_type,Free_Wifi,Air_conditioning,Balcony,price_per_night
+1,Executive,no,yes,no,7000
+1,Royal,no,yes,yes,15000
+3,Royal Family Suite,yes,yes,yes,28000
