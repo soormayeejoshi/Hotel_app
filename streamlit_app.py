@@ -116,15 +116,15 @@ else:
         st.session_state.load1_state=True
         pas=st.text_input("enter password to continue",type="password")
         if(pas=='admin123'):
-            info1=pd.read_sql('select information1.*,ROOM_TYPE,NUMBER_OF_DAYS,EXTRA_BED,BREAKFAST_INCLUDED,TOTAL_BILL from information1,sales where Aadhar_Number=AADHAR;',mycon)
+            info1=pd.read_csv('info1.csv')
             st.dataframe(info1)
             sales1=info1.TOTAL_BILL.sum()
             st.write("Sales for first month:",sales1)
-            info2=pd.read_sql('select personal12.*,Room_type,Number_of_days,Extra_bed,Breakfast_included,Total_bill from personal12,Sales22 where Aadhar_Number=AADHAR;',mycon)
+            info2=pd.read_csv('info2.csv')
             st.dataframe(info2)
             sales2=info2.Total_bill.sum()
             st.write("Sales for second month:",sales2)
-            info3=pd.read_sql('select personal33.*,Room_type,Number_of_days,Extra_bed,Breakfast_included,Total_bill from personal33,Sales44 where Aadhar_Number=AADHAR;',mycon)
+            info3=pd.read_csv('info3.csv')
             st.dataframe(info3)
             fig = plt.figure() 
             sales3=info3.Total_bill.sum()
