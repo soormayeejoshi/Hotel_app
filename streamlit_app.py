@@ -36,7 +36,7 @@ if "load_state" not in st.session_state:
 if load or st.session_state.load_state:
     st.session_state.load_state=True
     
-    DF2=pd.read_sql("SELECT * FROM Hotel;",mycon)
+    DF2=pd.read_csv("C:\\Users\\Soormayee\\Downloads\\hotel.csv")
                           
     st.dataframe(DF2)
     st.text("To continue booking,enter your personal details")
